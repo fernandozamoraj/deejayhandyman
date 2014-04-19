@@ -9,139 +9,226 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title>DeeJay Handyman</title>
 	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-	<link rel="stylesheet" href="./css/gridiculous.css">
+    <link href='http://fonts.googleapis.com/css?family=Nova+Square' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='./css/site.css' type='text/css'>
+	<link rel="stylesheet" href="./css/gridiculous.css" type='text/css'>
+
 
     <style>
-
         body{
             background-color: black;
             color: #777;
-        }
-        #main-banner{
-            background-image: url('./img/dj-handyman-background.jpg');
-            background-repeat: no-repeat;
-            background-size: 100%;
-            min-height: 500px;;
-
+            font-family: 'Nova Square', cursive;
         }
 
-        a{
-            text-decoration: none;;
+        p{
+            font-family: 'Arial', cursive;
         }
 
-        .contrast-color{
-            color: #882222;
+        .menu-item{
+            font-size: 1.5em;
         }
-
-        .contrast-background{
-            background-color: #882222;
-        }
-
-        .bright-color{
-            color: #eee;
-        }
-
-        #top-logo{
-            margin-top: 0px;;
-            margin-left: 0px;;
-        }
-
-        .findout-more-link{
-            color: #fff;
-            background-color: #882222;
-            padding-left: 1em;;
-            padding-right: 1em;
-            padding-top: .5em;
-            padding-bottom: .5em;
-        }
-
-        #features{
-            background-color: #212121;
-        }
-
     </style>
-    
+
 </head>
 <body>
 	<div id="site-container" class="grid">
-
-
 		<div id="site-content" role="main">
 
-            <div class="row">
-                <div class="c4"><a href="#" class="bright-color"></a></div>
-                <div class="c2"><a href="#" class="bright-color">HOME</a></div>
-                <div class="c2"><a href="#" class="bright-color">ABOUT</a></div>
-                <div class="c2"><a href="#" class="bright-color">MY SERVICES</a></div>
-                <div class="c2"><a href="#" class="bright-color">CONTACT ME</a></div>
-            </div>
-            <!-- headphone banner-->
-            <div class="row" id="main-banner">
-               <img class="c2" id="top-logo" src="./img/deejayhandyman-logo.png" alt="deejay handyman logo"/>
+            <div class="row" id="main-menu">
+                <div class="c3"></div>
+                <div class="c9">
+                    <a href="#1" class="bright-color menu-item" onclick="show('home');"  id='home-menu'>HOME  </a>
+                    <a href="#1" class="bright-color menu-item" onclick="show('about');" id='about-menu'>ABOUT  </a>
+                    <a href="#1" class="bright-color menu-item" onclick="show('my-services');"  id='my-services-menu'>MY SERVICES  </a>
+                    <a href="#1" class="bright-color menu-item" onclick="show('contact-me');"  id='contact-me-menu'>CONTACT ME  </a>
 
-                <div class="row" id="social-media">
-
-                </div>
-                <div class="row" >
-                    <p class="c2 contrast-background bright-color" >BOOK AN EVENT</p>
-                </div>
-	        </div>
-            <div class="row" id="features">
-                <div class="c4">
-                    <h3 class="bright-color">STATE OF THE ART</h3>
-                    <p class="bright-color">
-                        Bringing you superior sounds and quality with the most up to date dj equipment! A second to none lighting show that compliments the atmosphere!
-                    </p>
-                    <h3 class="bright-color"><a href="#" class="findout-more-link"> FIND OUT MORE</a></h3>
-                </div>
-                <div class="c4">
-                    <h3 class="bright-color">ALL MUSIC GENRES</h3>
-                    <p class="bright-color">
-                        With a vast list of genres, the list goes on. Top 40, Country, Hip Hop, Bluegrass, R&B, Dubstep, Rock, Pop, 80's/90's Music, Old School and much more!
-                    </p>
-                    <h3 class="bright-color"><a href="#" class="findout-more-link"> FIND OUT MORE</a></h3>
-                </div>
-                <div class="c4">
-                    <h3 class="bright-color">WHY DEEJAY HANDYMAN?</h3>
-                    <p class="bright-color">
-                        With the love and appreciation I have for music, I give you the best experience in bringing your special event to life.
-                    </p>
-                    <h3 class="bright-color"><a href="#" class="findout-more-link"> FIND OUT MORE</a></h3>
-                </div>
-            </div>
-            <div class="row" id="testimonials">
-                <div class="c4">
-                    <p class="bright-color">
-                        Michael, aka “Dee Jay Handyman”, is superb! He played most of the music that I had on my playlist but did ask first if he needed to play everything on my list. He definitely made sure that my daughter was the center of attention and that she and everyone was having a great time.
-                    </p>
-                    <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
-                    <p>- Stephanie Holder
-                        <br/> Sweet Sixteen Birthday
-                    </p>
-                </div>
-                <div class="c4">
-                    <p class="bright-color">
-                        Best DJ I ever hired!!! I threw a Halloween Party last year and the only thing the party goers could talk about is the DJ, at how versatile he was when it came to song selections. His interaction with my guests was mind-blowing he truly connected with us all..
-                    </p>
-                    <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
-                    <p> - Crystal Henry
-                        <br/> Halloween Party
-                    </p>
-                </div>
-                <div class="c4">
-                    UPCOMING EVENTS
                 </div>
             </div>
 
-		
+            <div id="home">
+                <!-- headphone banner-->
+                <div class="row" id="main-banner">
+
+
+                    <div class="row" id="social-media">
+
+                    </div>
+                    <div class="row" >
+                        <p class="c2 contrast-background bright-color" >BOOK AN EVENT</p>
+                    </div>
+                </div>
+                <div class="row" id="features">
+                    <div class="c4">
+                        <h3 class="bright-color">STATE OF THE ART</h3>
+                        <p class="bright-color">
+                            Bringing you superior sounds and quality with the most up to date dj equipment! A second to none lighting show that compliments the atmosphere!
+                        </p>
+                        <h3 class="bright-color"><a href="#" class="findout-more-link"> FIND OUT MORE</a></h3>
+                    </div>
+                    <div class="c4">
+                        <h3 class="bright-color">ALL MUSIC GENRES</h3>
+                        <p class="bright-color">
+                            With a vast list of genres, the list goes on. Top 40, Country, Hip Hop, Bluegrass, R&B, Dubstep, Rock, Pop, 80's/90's Music, Old School and much more!
+                        </p>
+                        <h3 class="bright-color"><a href="#" class="findout-more-link"> FIND OUT MORE</a></h3>
+                    </div>
+                    <div class="c4">
+                        <h3 class="bright-color">WHY DEEJAY HANDYMAN?</h3>
+                        <p class="bright-color">
+                            With the love and appreciation I have for music, I give you the best experience in bringing your special event to life.
+                        </p>
+                        <h3 class="bright-color"><a href="#" class="findout-more-link"> FIND OUT MORE</a></h3>
+                    </div>
+                </div>
+                <div class="row" id="testimonials">
+                    <div class="c4">
+                        <p class="bright-color">
+                            Michael, aka “Dee Jay Handyman”, is superb! He played most of the music that I had on my playlist but did ask first if he needed to play everything on my list. He definitely made sure that my daughter was the center of attention and that she and everyone was having a great time.
+                        </p>
+                        <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
+                        <p>- Stephanie Holder
+                            <br/> Sweet Sixteen Birthday
+                        </p>
+                    </div>
+                    <div class="c4">
+                        <p class="bright-color">
+                            Best DJ I ever hired!!! I threw a Halloween Party last year and the only thing the party goers could talk about is the DJ, at how versatile he was when it came to song selections. His interaction with my guests was mind-blowing he truly connected with us all..
+                        </p>
+                        <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
+                        <p> - Crystal Henry
+                            <br/> Halloween Party
+                        </p>
+                    </div>
+                    <div class="c4">
+                        UPCOMING EVENTS
+                    </div>
+                </div>
+            </div><!--end of home-->
+            <div id="about">
+                <div class="c8">
+                    <h3>ABOUT DEEJAY HANDYMAN</h3>
+                    <p>
+                        Born in Indiana and raised in Southern California. I started DJing at the age of 15. My first venues were house parties and small dances. Like many around my block, I joined a local rap group; in which we performed at the Riverside Legion Hall.
+                    </p>
+                    <p>
+                        After graduating high school, I entered the U.S. Army. Once in, I was able to afford professional equipment that all the top DJs used (Technics 1200s). While in the military, I DJ'ed at the local club on base. After a few years of moving from base to base, the bulk of my military DJing was in Dexheim Germany; under contract with the U.S. Military (Yep, they allowed me to moonlight on the side).
+                    </p>
+                    <p>
+                        After leaving the military, I took a hiatus from DJing because of the cumbersome albums that needed to be transported. Fast forward to today's era… Digital music!!! I've been spinning since 2010 utilizing the NS7 by Numark; which pretty much negates totting albums. Welcome .mp3 format!!!
+                    </p>
+                    <p>
+                        My largest event to date was the MMA event (which held 2000 people) at the Killeen Civic and Conference Center. And I've been spinning ever since!
+                    </p>
+                </div>
+                <div class="c4 end">
+                    <h3>"VERY PROFESSIONAL"</h3>
+                    <p>
+                        Wow! What amazing professionalism the DJ displayed for the Mixed Martial Arts event I had staged for my fighters at the Killeen Civic and Conference Center.  The music was well suited for all the audience members.  I can't say enough about Dee Jay Handyman.  Great music and great professionalism at the same time.
+                    </p>
+                </div>
+            </div><!--end of about-->
+            <div id="my-services">
+                <div class="row">
+                    <h3 class="c4">MY SERVICES</h3>
+                    <div class="row"></div>
+                    <p class="c8">
+                        Providing DJ Services for the areas of Fort Hood, Killeen, Harker Heights,
+                        Copperas Cove, Belton, Temple, and Salado.
+                    </p>
+                </div>
+                <div class="row">
+                    <h3 class="c5">DJ Services Are Provided For The Following:</h3>
+                    <div class="row"></div>
+                    <p class="c3">
+                        <br>Weddings
+                        <br>Birthdays
+                        <br>Dances
+                        <br>Quinceaneras
+                        <br>Hail and Farewells
+                        <br>Karaoke
+                    </p>
+                    <p class="c3">
+                        <br>Sporting Events
+                        <br>Grand Openings
+                        <br>Receiptions
+                        <br>School Dances
+                        <br>and much more!!!
+                    </p>
+                    <div class="row"></div>
+                    <p class="c6">
+                        All DJ events include a lighting package that will enhance your event and an unmatched complimenting sound system at a very affordable price.
+                    </p>
+                </div>
+            </div><!--end of my services-->
+            <div id="contact-me">
+                <div class="row">
+                    <h3 class="c4">CONTACT ME</h3>
+                    <div class="row"></div>
+                    <p class="c8">
+                        In addition to booking an event request online, if you have any questions please feel free to contact me from the information listed below.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="c3">
+                        <h3>POC</h3>
+                        Michael Adkins (aka DeeJay Handyman)
+                    </div>
+                    <div class="c3">
+                        <h3>Phone</h3>
+                        1-254-433-8466
+                    </div>
+                    <div class="c3">
+                        <h3>E-Mail</h3>
+                        <a href="mailto:DeeJayHandyman@gmail.com" class="bright-color">DeeJayHandyman@gmail.com</a>
+                    </div>
+                </div>
+            </div><!--end of contact-me-->
+		</div><!--end of main-->
+
+
 		<footer class="row bright-color">
-	        <img src="./img/equipment.png" alt="equipment casio rane scratch ableton the CRANE stand"/>
-		    <br>Michael Adkins
-            <br><a href="mailto:DeeJayHandyman@gmail.com?subject=Deejay Handyman services" class="bright-color">DeeJayHandyman@gmail.com</a>
-            <br>1-254-433-8466
+            <div class="row">
+                <h3 class="c4">EQUIPMENT</h3>
+            </div>
+            <div class="row">
+                <img src="./img/equipment.png" alt="equipment casio rane scratch ableton the CRANE stand" class="c6"/>
+            </div>
+            <div class="row">
+                <div class="c6">
+                    <br>Michael Adkins
+                    <br><a href="mailto:DeeJayHandyman@gmail.com?subject=Deejay Handyman services" class="bright-color">DeeJayHandyman@gmail.com</a>
+                    <br>1-254-433-8466
+                </div>
+            </div>
 		</footer>
-	</div>
+	</div><!--end of site-container-->
+    <script>
+        function show(elementToShow) {
+            hideAllMenuItems();
+            var selectedMenuItem = document.getElementById(elementToShow);
+            selectedMenuItem.style.display='block';
+
+            document.getElementById(elementToShow + '-menu').classList.add("selected")
+        }
+
+        function hideAllMenuItems() {
+
+            document.getElementById('home').style.display='none';
+            document.getElementById('about').style.display='none';
+            document.getElementById('my-services').style.display='none';
+            document.getElementById('contact-me').style.display='none';
+
+
+            document.getElementById('home-menu').classList.remove("selected");
+            document.getElementById('about-menu').classList.remove("selected");
+            document.getElementById('my-services-menu').classList.remove("selected");
+            document.getElementById('contact-me-menu').classList.remove("selected");
+        }
+
+        show('home');
+    </script>
 </body>
 </html>

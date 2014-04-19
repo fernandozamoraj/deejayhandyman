@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deejayhandyman.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\css\reset.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\css\responsive.gs.12col.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\css\responsive.gs.16col.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\css\responsive.gs.24col.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\original.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\scripts\boxsizing.htc" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\scripts\respond.min.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397861049699" ignored="false" />
-    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397867733564" ignored="false" />
+    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397887865901" ignored="false" />
+    <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397887410788" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +51,16 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="48" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.2384393">
+            <state line="45" column="53" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.71242774">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/site.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="1" selection-end="96" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,6 +84,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/css/site.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -177,6 +176,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -271,13 +285,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/gridiculous.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -285,9 +292,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/gridiculous.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="1" selection-end="96" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="48" selection-start="2107" selection-end="2107" vertical-scroll-proportion="0.2384393">
+        <state line="45" column="53" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.71242774">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,70 @@
+
+ body{
+    background-color: black;
+    color: #777;
+    font-family: 'Nova Square', cursive;
+}
+#main-banner{
+    background-image: url('../img/dj-handyman-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 500px;;
+
+}
+
+#main-menu{
+    background-image: url('../img/deejayhandyman-logo.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
+    min-height: 100px;;
+}
+
+a{
+    text-decoration: none;;
+}
+
+a:hover
+{
+    background-color:#eee;
+    color:#882222;
+}
+
+a.selected
+{
+    background-color:#882222;
+    color: #eee;
+}
+
+.contrast-color{
+    color: #882222;
+}
+
+.contrast-background{
+    background-color: #882222;
+}
+
+.bright-color{
+    color: #eee;
+}
+
+#top-logo{
+    margin-top: 0px;;
+    margin-left: 0px;;
+}
+
+.findout-more-link{
+    color: #fff;
+    background-color: #882222;
+    padding-left: 1em;;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#features{
+    background-color: #212121;
+}
+
+p{
+    color: #eee;
+}
