@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/todolist.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +50,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="38" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.25487256">
+            <state line="14" column="27" selection-start="753" selection-end="753" vertical-scroll-proportion="0.3568216">
               <folding />
             </state>
           </provider>
@@ -312,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="38" selection-start="1907" selection-end="1907" vertical-scroll-proportion="0.25487256">
+        <state line="14" column="27" selection-start="753" selection-end="753" vertical-scroll-proportion="0.3568216">
           <folding />
         </state>
       </provider>
