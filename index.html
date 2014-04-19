@@ -30,6 +30,10 @@
         .menu-item{
             font-size: 1.5em;
         }
+
+        .panel-color{
+            background-color: #333;
+        }
     </style>
 
 </head>
@@ -40,11 +44,11 @@
             <div class="row" id="main-menu">
                 <div class="c3"></div>
                 <div class="c9">
-                    <a href="#1" class="bright-color menu-item" onclick="show('home');"  id='home-menu'>HOME  </a>
-                    <a href="#1" class="bright-color menu-item" onclick="show('about');" id='about-menu'>ABOUT  </a>
-                    <a href="#1" class="bright-color menu-item" onclick="show('my-services');"  id='my-services-menu'>MY SERVICES  </a>
-                    <a href="#1" class="bright-color menu-item" onclick="show('contact-me');"  id='contact-me-menu'>CONTACT ME  </a>
-
+                    <a href="#1" class="bright-color menu-item" onclick="show('home');"  id='home-menu'>HOME  </a>&#8226;
+                    <a href="#1" class="bright-color menu-item" onclick="show('about');" id='about-menu'>ABOUT  </a>&#8226;
+                    <a href="#1" class="bright-color menu-item" onclick="show('my-services');"  id='my-services-menu'>MY SERVICES  </a>&#8226;
+                    <a href="#1" class="bright-color menu-item" onclick="show('contact-me');"  id='contact-me-menu'>CONTACT ME  </a>&#8226;
+                    <a href="#1" class="bright-color menu-item" onclick="show('gallery');"  id='gallery-menu'>GALLERY  </a>
                 </div>
             </div>
 
@@ -57,7 +61,7 @@
 
                     </div>
                     <div class="row" >
-                        <p class="c2 contrast-background bright-color" >BOOK AN EVENT</p>
+                        <p class="c3 contrast-background bright-color" >BOOK YOUR EVENT NOW</p>
                     </div>
                 </div>
                 <div class="row" id="features">
@@ -123,7 +127,7 @@
                         My largest event to date was the MMA event (which held 2000 people) at the Killeen Civic and Conference Center. And I've been spinning ever since!
                     </p>
                 </div>
-                <div class="c4 end">
+                <div class="c4 end panel-color">
                     <h3>"VERY PROFESSIONAL"</h3>
                     <p>
                         Wow! What amazing professionalism the DJ displayed for the Mixed Martial Arts event I had staged for my fighters at the Killeen Civic and Conference Center.  The music was well suited for all the audience members.  I can't say enough about Dee Jay Handyman.  Great music and great professionalism at the same time.
@@ -174,11 +178,11 @@
                 <div class="row">
                     <div class="c3">
                         <h3>POC</h3>
-                        Michael Adkins (aka DeeJay Handyman)
+                        <p class="bright-color">Michael Adkins <br/>(aka DeeJaygg Handyman)</p>
                     </div>
                     <div class="c3">
                         <h3>Phone</h3>
-                        1-254-433-8466
+                        <p class="bright-color">1-254-433-8466</p>
                     </div>
                     <div class="c3">
                         <h3>E-Mail</h3>
@@ -186,12 +190,24 @@
                     </div>
                 </div>
             </div><!--end of contact-me-->
+            <div id="gallery">
+                <div class="row">
+                    <h3 class="c4">GALLERY/h3>
+                    <div class="row"></div>
+                    <p class="c8">
+                        Coming Soon!
+                    </p>
+                </div>
+                <div class="row">
+
+                </div>
+            </div><!--end of gallery-->
 		</div><!--end of main-->
 
 
 		<footer class="row bright-color">
             <div class="row">
-                <h3 class="c4">EQUIPMENT</h3>
+                <h3 class="c4 panel-color">EQUIPMENT</h3>
             </div>
             <div class="row">
                 <img src="./img/equipment.png" alt="equipment casio rane scratch ableton the CRANE stand" class="c6"/>
@@ -220,12 +236,14 @@
             document.getElementById('about').style.display='none';
             document.getElementById('my-services').style.display='none';
             document.getElementById('contact-me').style.display='none';
+            document.getElementById('gallery').style.display='none';
 
 
             document.getElementById('home-menu').classList.remove("selected");
             document.getElementById('about-menu').classList.remove("selected");
             document.getElementById('my-services-menu').classList.remove("selected");
             document.getElementById('contact-me-menu').classList.remove("selected");
+            document.getElementById('gallery-menu').classList.remove("selected");
         }
 
         show('home');
