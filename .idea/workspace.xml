@@ -7,7 +7,7 @@
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397861049699" ignored="false" />
-    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397890981301" ignored="false" />
+    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397893229397" ignored="false" />
     <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397887410788" ignored="false" />
     <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397892019932" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,7 +50,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="27" selection-start="753" selection-end="753" vertical-scroll-proportion="0.3568216">
+            <state line="176" column="26" selection-start="9597" selection-end="9597" vertical-scroll-proportion="0.40929535">
               <folding />
             </state>
           </provider>
@@ -310,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="27" selection-start="753" selection-end="753" vertical-scroll-proportion="0.3568216">
+        <state line="176" column="26" selection-start="9597" selection-end="9597" vertical-scroll-proportion="0.40929535">
           <folding />
         </state>
       </provider>
