@@ -44,11 +44,11 @@
             <div class="row" id="main-menu">
                 <div class="c3"></div>
                 <div class="c9">
-                    <a href="#1" class="bright-color menu-item" onclick="show('home');"  id='home-menu'>HOME  </a>&#8226;
-                    <a href="#1" class="bright-color menu-item" onclick="show('about');" id='about-menu'>ABOUT  </a>&#8226;
-                    <a href="#1" class="bright-color menu-item" onclick="show('my-services');"  id='my-services-menu'>MY SERVICES  </a>&#8226;
-                    <a href="#1" class="bright-color menu-item" onclick="show('contact-me');"  id='contact-me-menu'>CONTACT ME  </a>&#8226;
-                    <a href="#1" class="bright-color menu-item" onclick="show('gallery');"  id='gallery-menu'>GALLERY  </a>
+                    <a href="#home" class="bright-color menu-item" onclick="show('home');"  id='home-menu'>HOME  </a>&#8226;
+                    <a href="#about" class="bright-color menu-item" onclick="show('about');" id='about-menu'>ABOUT  </a>&#8226;
+                    <a href="#myservices" class="bright-color menu-item" onclick="show('my-services');"  id='my-services-menu'>MY SERVICES  </a>&#8226;
+                    <a href="#contactme" class="bright-color menu-item" onclick="show('contact-me');"  id='contact-me-menu'>CONTACT ME  </a>&#8226;
+                    <a href="#gallery" class="bright-color menu-item" onclick="show('gallery');"  id='gallery-menu'>GALLERY  </a>
                 </div>
             </div>
 
@@ -90,7 +90,7 @@
                 <div class="row" id="testimonials">
                     <div class="c4">
                         <p class="bright-color">
-                            Michael, aka “Dee Jay Handyman”, is superb! He played most of the music that I had on my playlist but did ask first if he needed to play everything on my list. He definitely made sure that my daughter was the center of attention and that she and everyone was having a great time.
+                            &quot;Michael, aka “Dee Jay Handyman”, is superb! He played most of the music that I had on my playlist but did ask first if he needed to play everything on my list. He definitely made sure that my daughter was the center of attention and that she and everyone was having a great time.&quot;
                         </p>
                         <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
                         <p>- Stephanie Holder
@@ -99,7 +99,7 @@
                     </div>
                     <div class="c4">
                         <p class="bright-color">
-                            Best DJ I ever hired!!! I threw a Halloween Party last year and the only thing the party goers could talk about is the DJ, at how versatile he was when it came to song selections. His interaction with my guests was mind-blowing he truly connected with us all..
+                            &quot;Best DJ I ever hired!!! I threw a Halloween Party last year and the only thing the party goers could talk about is the DJ, at how versatile he was when it came to song selections. His interaction with my guests was mind-blowing he truly connected with us all.&quot;
                         </p>
                         <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
                         <p> - Crystal Henry
@@ -178,7 +178,7 @@
                 <div class="row">
                     <div class="c3">
                         <h3>POC</h3>
-                        <p class="bright-color">Michael Adkins <br/>(aka DeeJaygg Handyman)</p>
+                        <p class="bright-color">Michael Adkins <br/>(aka DeeJay Handyman)</p>
                     </div>
                     <div class="c3">
                         <h3>Phone</h3>
@@ -206,6 +206,7 @@
 
 
 		<footer class="row bright-color">
+            <div class="row"></div>
             <div class="row">
                 <h3 class="c4 panel-color">EQUIPMENT</h3>
             </div>
@@ -222,7 +223,16 @@
 		</footer>
 	</div><!--end of site-container-->
     <script>
+
+        //kindle fire has bugs that prevent menu navigation
+        //this is to avoid hiding menus in kindle fire
+        var ua = navigator.userAgent;
+        var isKindle = /Kindle/i.test(ua) || /Silk/i.test(ua) || /KFTT/i.test(ua) || /KFOT/i.test(ua) || /KFJWA/i.test(ua) || /KFJWI/i.test(ua) || /KFSOWI/i.test(ua) || /KFTHWA/i.test(ua) || /KFTHWI/i.test(ua) || /KFAPWA/i.test(ua) || /KFAPWI/i.test(ua);
+
+
         function show(elementToShow) {
+            if(isKindle === true)
+                return;
             hideAllMenuItems();
             var selectedMenuItem = document.getElementById(elementToShow);
             selectedMenuItem.style.display='block';
@@ -231,6 +241,7 @@
         }
 
         function hideAllMenuItems() {
+
 
             document.getElementById('home').style.display='none';
             document.getElementById('about').style.display='none';
