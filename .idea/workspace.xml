@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\img\michael_and_nichole_reception.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\img\youtube_michael_and_nichole_reception - Copy.JPG" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\img\youtube_mr_and_ms_wallace - Copy.JPG" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/youtube_handy_man_entertainment.JPG" afterPath="$PROJECT_DIR$/img/youtube_handy_man_entertainment.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/youtube_michael_and_nichole_reception.JPG" afterPath="$PROJECT_DIR$/img/youtube_michael_and_nichole_reception.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/youtube_mr_and_ms_wallace.JPG" afterPath="$PROJECT_DIR$/img/youtube_mr_and_ms_wallace.JPG" />
+      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\sample.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\stylesheet.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.dat" afterPath="$PROJECT_DIR$/todolist.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398031933706" ignored="false" />
-    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398033415879" ignored="false" />
+    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398036495114" ignored="false" />
     <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397980322051" ignored="false" />
     <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397967539125" ignored="false" />
     <file path="$PROJECT_DIR$/../../diggablewebsites/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397979471866" ignored="false" />
@@ -48,19 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="391" column="38" selection-start="20928" selection-end="20928" vertical-scroll-proportion="0.6696562">
+            <state line="175" column="42" selection-start="7695" selection-end="7695" vertical-scroll-proportion="0.79073244">
               <folding />
             </state>
           </provider>
@@ -69,7 +57,7 @@
       <file leaf-file-name="todolist.dat" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="-11.115385">
+            <state line="15" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -298,13 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="321" column="30" selection-start="17551" selection-end="17551" vertical-scroll-proportion="0.0">
@@ -333,16 +314,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="381" selection-end="381" vertical-scroll-proportion="-11.115385">
+        <state line="15" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="-9.807693">
           <folding />
         </state>
       </provider>
@@ -356,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="391" column="38" selection-start="20928" selection-end="20928" vertical-scroll-proportion="0.6696562">
+        <state line="175" column="42" selection-start="7695" selection-end="7695" vertical-scroll-proportion="0.79073244">
           <folding />
         </state>
       </provider>

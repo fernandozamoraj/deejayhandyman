@@ -65,12 +65,25 @@
             color: #eee;
         }
 
+            /**
+             * Nettuts style blockquote
+             */
+
+        blockquote {
+            font-style: italic;
+        }
+
+        blockquote p {
+            font-style: italic;
+        }
+
         @media only screen and (max-width:480px) {
 
             #main-banner{
                 min-height: 200px;;
             }
         }
+
 
     </style>
 
@@ -145,18 +158,24 @@
 
                 <div class="row" id="testimonials">
                     <div class="c4">
-                        <p class="bright-color">
-                            &quot;Michael, aka “Dee Jay Handyman”, is superb! He played most of the music that I had on my playlist but did ask first if he needed to play everything on my list. He definitely made sure that my daughter was the center of attention and that she and everyone was having a great time.&quot;
-                        </p>
+                        <blockquote>
+                            <p class="bright-color">
+                                &quot;Michael, aka “Dee Jay Handyman”, is superb! He played most of the music that I had on my playlist but did ask first if he needed to play everything on my list. He definitely made sure that my daughter was the center of attention and that she and everyone was having a great time.&quot;
+
+                            </p>
+                        </blockquote>
 
                         <h3 class="contrast-color">- Stephanie Holder</h3>
                         <h3 class="bright-color">  Sweet Sixteen Birthday</h3>
 
                     </div>
                     <div class="c4">
-                        <p class="bright-color">
-                            &quot;Best DJ I ever hired!!! I threw a Halloween Party last year and the only thing the party goers could talk about is the DJ, at how versatile he was when it came to song selections. His interaction with my guests was mind-blowing he truly connected with us all.&quot;
-                        </p>
+                        <blockquote>
+                            <p class="bright-color">
+                                &quot;Best DJ I ever hired!!! I threw a Halloween Party last year and the only thing the party goers could talk about is the DJ, at how versatile he was when it came to song selections. His interaction with my guests was mind-blowing he truly connected with us all.&quot;
+                                <br/><br/>
+                            </p>
+                       </blockquote>
                         <h3 class="contrast-color">- Crystal Henry</h3>
                         <h3 class="bright-color">  Halloween Party</h3>
 
@@ -388,7 +407,19 @@
             }
         }
 
-
+        //*******************************************************************
+        //
+        //   function show(elementToShow)
+        //   param: elementToShow    the div that will show (i.e. the page that
+        //    will show when the menu-item is clicked.  This way all other divs
+        //    are hiddend and just the one show. The item that will show is
+        //   determined by the onclick=show('ELEMENTTOSHOW').
+        //
+        //   There is also a convetion at work here the menu-item id is post-fixed
+        //   with -menu for whateve section is it corresponds to (e.g. home-menu
+        //    correspnds to the "home" div(i.e. page).
+        //
+        //********************************************************************
         function show(elementToShow) {
             if(isKindle === true)
                 return;
@@ -416,7 +447,8 @@
             document.getElementById('gallery-menu').classList.remove("selected");
         }
 
-        clearHrefWhenNotKindle();
+        //Invoke these two funtcions upon loading of the page
+        clearHrefWhenNotKindle();   //clear the ids and then show the home menu selected
         show('home');
     </script>
 
