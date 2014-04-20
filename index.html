@@ -60,6 +60,18 @@
         .details-header{
             background-color: ;
         }
+
+        .event-date{
+            color: #eee;
+        }
+
+        @media only screen and (max-width:480px) {
+
+            #main-banner{
+                min-height: 200px;;
+            }
+        }
+
     </style>
 
 </head>
@@ -136,24 +148,97 @@
                         <p class="bright-color">
                             &quot;Michael, aka “Dee Jay Handyman”, is superb! He played most of the music that I had on my playlist but did ask first if he needed to play everything on my list. He definitely made sure that my daughter was the center of attention and that she and everyone was having a great time.&quot;
                         </p>
-                        <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
-                        <p>- Stephanie Holder
-                            <br/> Sweet Sixteen Birthday
-                        </p>
+
+                        <h3 class="contrast-color">- Stephanie Holder</h3>
+                        <h3 class="bright-color">  Sweet Sixteen Birthday</h3>
+
                     </div>
                     <div class="c4">
                         <p class="bright-color">
                             &quot;Best DJ I ever hired!!! I threw a Halloween Party last year and the only thing the party goers could talk about is the DJ, at how versatile he was when it came to song selections. His interaction with my guests was mind-blowing he truly connected with us all.&quot;
                         </p>
-                        <h3 class="bright-color"><a href="#" class="contrast-color"> more...</a></h3>
-                        <p> - Crystal Henry
-                            <br/> Halloween Party
-                        </p>
+                        <h3 class="contrast-color">- Crystal Henry</h3>
+                        <h3 class="bright-color">  Halloween Party</h3>
+
                     </div>
-                    <div class="c4">
+                    <!--***************************************************************************
+
+                               UPCOMING EVENTS SECTION LIKELY AREA TO UPDATE
+                               TO UPDATE THIS SECTION ALL YOU NEED TO DO IS ADD ROWS
+
+                    *******************************************************************************-->
+                    <div id="upcoming-events" class="c4">
                         UPCOMING EVENTS
+                        <div class="row">
+                            <span class="event-date">April 25, 2014</span></br>
+                            <span class="event-name">Wedding Reception Georgetown, TX</span>
+                        </div>
+                        <div class="row">
+                            <span class="event-date">May 24, 2014</span></br>
+                            <span class="event-name">Wedding Reception Killeen, TX</span>
+                        </div>
                     </div>
                 </div>
+                <div id="state-of-the-art-details" class="row details">
+                    <div class="row panel-color bright-color">
+                        <h3 class="c10">STATE OF THE ART</h3>
+                    </div>
+                    <div class="row">
+                        <div class="c10">
+                            <p>
+                                Bringing you the latest in the most robust of technological equipment, sight and sound, starting the line-up is the NS7FX Controller. Designed by Numark in collaboration with Serato, the NS7FX represents the pinnacle of digital DJ performance!
+                            </p>
+                            <p>
+                                The integral piece that coincides with the NS7 Controller is the iMac from Apple! With reliable quality from Apple, the iMac delivers reliability from start to finish!
+                            </p>
+                            <p>
+                                For your listening pleasure you will experience the Harbinger APS15 15" Powered PA Speaker, which delivers high quality robust sound that's unmatched!
+                            </p>
+                            <p>
+                                The final piece that brings the entire system spectrum together, is the stunning light show! This awesome display of brilliance, consist of the Intimidator rotating head Spot LED 150, Colorstrip LED, The Majestic Moonflower LED, Galaxian LED Lasers, ThinPar64 and SlimPar 56 par cans. With an LED front-end, there is low heat which allows the light show to continue for the entire event! Book now to secure your date!!!
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <h3 class="c6"><a class="bright-color" href="#home" class="bright-color" onclick="show('home');">BACK TO TOP</a></h3>
+                    </div>
+                </div><!--End of state-of-the-art-details-->
+
+                <div id="all-music-genres-details" class="row details">
+                    <div class="row panel-color bright-color">
+                        <h3 class="c10">ALL MUSIC GENRES</h3>
+                    </div>
+                    <div class="row">
+                        <div class="c10">
+                            <p>
+                                By providing a vast array of different music genres, your hosted event will not be lacking the quality and quantity of music. With subscriptions to two of the most dynamic music pools (Digiwaxx and Whitelabel), you will be receiving the latest top 40 of all genres.
+                            </p>
+                            <p>
+                                Whether it be Country Music to Hip Hop and R&B, your request will be fulfilled at your hosted event! For all the 70’s 80’s and 90’s generation, you are covered! Book now to secure your date!!!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h3 class="c6"><a class="bright-color" href="#home" class="bright-color" onclick="show('home');">BACK TO TOP</a></h3>
+                    </div>
+                </div><!--all-music-genres-details-->
+
+                <div id="why-deejay-handyman-details" class="row details">
+                    <div class="row panel-color bright-color">
+                        <h3 class="c10">WHY DEEJAY HANDYMAN?</h3>
+                    </div>
+                    <div class="row">
+                        <div class="c10">
+                            <p>
+                                Quality, professionalism, and crowd-pleasing excitement is what I bring to the table. You will get an on time, on budget professional Disc Jockey for an affordable price! Whether it be a Sweet 16 birthday party, wedding, grand opening, sporting event, hail and fairwell, you name it, I’m here to deliver and make your event a memorable one! Book now to secure your date!!!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h3 class="c6"><a class="bright-color" href="#home" class="bright-color" onclick="show('home');">BACK TO TOP</a></h3>
+                    </div>
+                </div><!--why=deejay-handyman-details-->
             </div><!--end of home-->
             <div id="about">
                 <div class="c8">
@@ -236,11 +321,16 @@
             </div><!--end of contact-me-->
             <div id="gallery">
                 <div class="row">
-                    <h3 class="c4">GALLERY</h3>
-                    <div class="row"></div>
-                    <p class="c8">
-                        Coming Soon!
-                    </p>
+                    <h3 class="row">GALLERY</h3>
+                    <div class="row">
+                        <p class="c6">See these videos and more like them on our <a class="bright-color" href="https://www.youtube.com/user/DeeJayHandyman">youtube channel</a></p>
+                    </div>
+                    <div class="row">
+                        <a class="c4" href="http://youtu.be/Wk2rdiRMm04" target="_blank"><img src="./img/youtube_handy_man_entertainment.JPG"></a>
+                        <a class="c4" href="http://youtu.be/0lT7nILVD48" target="_blank"><img src="./img/youtube_michael_and_nichole_reception.JPG"></a>
+                        <a class="c4" href="http://youtu.be/xorQ0vlKzEE" target="_blank"><img src="./img/youtube_mr_and_ms_wallace.JPG"></a>
+                    </div>
+
                 </div>
                 <div class="row">
 
@@ -248,66 +338,7 @@
             </div><!--end of gallery-->
 		</div><!--end of main-->
 
-        <div id="state-of-the-art-details" class="row details">
-            <div class="row panel-color bright-color">
-                <h3 class="c10">STATE OF THE ART</h3>
-            </div>
-            <div class="row">
-                <div class="c10">
-                    <p>
-                        Bringing you the latest in the most robust of technological equipment, sight and sound, starting the line-up is the NS7FX Controller. Designed by Numark in collaboration with Serato, the NS7FX represents the pinnacle of digital DJ performance!
-                    </p>
-                    <p>
-                        The integral piece that coincides with the NS7 Controller is the iMac from Apple! With reliable quality from Apple, the iMac delivers reliability from start to finish!
-                    </p>
-                    <p>
-                        For your listening pleasure you will experience the Harbinger APS15 15" Powered PA Speaker, which delivers high quality robust sound that's unmatched!
-                    </p>
-                    <p>
-                        The final piece that brings the entire system spectrum together, is the stunning light show! This awesome display of brilliance, consist of the Intimidator rotating head Spot LED 150, Colorstrip LED, The Majestic Moonflower LED, Galaxian LED Lasers, ThinPar64 and SlimPar 56 par cans. With an LED front-end, there is low heat which allows the light show to continue for the entire event! Book now to secure your date!!!
-                    </p>
-                </div>
 
-            </div>
-            <div class="row">
-                <h3 class="c2"><a href="#home" class="bright-color" onclick="show('home');">BACK TO TOP</a></h3>
-            </div>
-        </div><!--End of state-of-the-art-details-->
-
-        <div id="all-music-genres-details" class="row details">
-            <div class="row panel-color bright-color">
-                <h3 class="c10">ALL MUSIC GENRES</h3>
-            </div>
-            <div class="row">
-                <div class="c10">
-                    <p>
-                        By providing a vast array of different music genres, your hosted event will not be lacking the quality and quantity of music. With subscriptions to two of the most dynamic music pools (Digiwaxx and Whitelabel), you will be receiving the latest top 40 of all genres.
-                    </p>
-                    <p>
-                        Whether it be Country Music to Hip Hop and R&B, your request will be fulfilled at your hosted event! For all the 70’s 80’s and 90’s generation, you are covered! Book now to secure your date!!!
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <h3 class="c2"><a href="#home" class="bright-color" onclick="show('home');">BACK TO TOP</a></h3>
-            </div>
-        </div><!--all-music-genres-details-->
-
-        <div id="why-deejay-handyman-details" class="row details">
-            <div class="row panel-color bright-color">
-                <h3 class="c10">WHY DEEJAY HANDYMAN?</h3>
-            </div>
-            <div class="row">
-                <div class="c10">
-                    <p>
-                        Quality, professionalism, and crowd-pleasing excitement is what I bring to the table. You will get an on time, on budget professional Disc Jockey for an affordable price! Whether it be a Sweet 16 birthday party, wedding, grand opening, sporting event, hail and fairwell, you name it, I’m here to deliver and make your event a memorable one! Book now to secure your date!!!
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <h3 class="c2"><a href="#home" class="bright-color" onclick="show('home');">BACK TO TOP</a></h3>
-            </div>
-        </div><!--why=deejay-handyman-details-->
 
 		<footer class="row bright-color">
             <div class="row"></div>
@@ -325,7 +356,9 @@
                 </div>
             </div>
 		</footer>
-	</div><!--end of site-container-->
+
+    </div><!--end of site-container-->
+
     <script>
 
         //kindle fire has bugs that prevent menu navigation
@@ -363,5 +396,6 @@
 
         show('home');
     </script>
+
 </body>
 </html>

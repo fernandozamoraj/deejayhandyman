@@ -19,17 +19,17 @@
     min-height: 100px;;
 }
 
-a{
+a.menu-item{
     text-decoration: none;;
 }
 
-a:hover
+a.menu-item:hover
 {
     background-color:#eee;
     color:#882222;
 }
 
-a.selected
+a.menu-item.selected
 {
     background-color:#882222;
     color: #eee;

@@ -3,14 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/site.css" afterPath="$PROJECT_DIR$/css/site.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.dat" afterPath="$PROJECT_DIR$/todolist.dat" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397861049699" ignored="false" />
-    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397957569308" ignored="false" />
-    <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397887410788" ignored="false" />
-    <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397895916667" ignored="false" />
+    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397964436604" ignored="false" />
+    <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397964506237" ignored="false" />
+    <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397960393709" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="310" column="0" selection-start="16491" selection-end="16491" vertical-scroll-proportion="5.1484256">
+            <state line="70" column="30" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.1844078">
               <folding />
             </state>
           </provider>
@@ -69,7 +70,7 @@
       <file leaf-file-name="site.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/site.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="276" selection-end="396" vertical-scroll-proportion="0.0">
+            <state line="7" column="11" selection-start="97" selection-end="262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -147,20 +148,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="deejayhandyman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deejayhandyman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="deejayhandyman" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,14 +282,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sample.html">
+    <entry file="file://$PROJECT_DIR$/css/gridiculous.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/gridiculous.css">
+    <entry file="file://$PROJECT_DIR$/sample.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -318,14 +305,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="276" selection-end="396" vertical-scroll-proportion="0.0">
+        <state line="7" column="11" selection-start="97" selection-end="262" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="310" column="0" selection-start="16491" selection-end="16491" vertical-scroll-proportion="5.1484256">
+        <state line="70" column="30" selection-start="2083" selection-end="2083" vertical-scroll-proportion="0.1844078">
           <folding />
         </state>
       </provider>
