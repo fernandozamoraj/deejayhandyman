@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/youtube_handy_man_entertainment.JPG" afterPath="$PROJECT_DIR$/img/youtube_handy_man_entertainment.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/youtube_michael_and_nichole_reception.JPG" afterPath="$PROJECT_DIR$/img/youtube_michael_and_nichole_reception.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/youtube_mr_and_ms_wallace.JPG" afterPath="$PROJECT_DIR$/img/youtube_mr_and_ms_wallace.JPG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/site.css" afterPath="$PROJECT_DIR$/css/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.dat" afterPath="$PROJECT_DIR$/todolist.dat" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397861049699" ignored="false" />
     <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397965510924" ignored="false" />
     <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397965638764" ignored="false" />
-    <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397960393709" ignored="false" />
+    <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397967489835" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <file leaf-file-name="todolist.dat" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todolist.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="95" selection-end="183" vertical-scroll-proportion="0.07234043">
+            <state line="1" column="37" selection-start="72" selection-end="72" vertical-scroll-proportion="0.024113474">
               <folding />
             </state>
           </provider>
@@ -96,9 +92,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/todolist.dat" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/site.css" />
+        <option value="$PROJECT_DIR$/todolist.dat" />
       </list>
     </option>
   </component>
@@ -314,7 +310,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="95" selection-end="183" vertical-scroll-proportion="0.07234043">
+        <state line="1" column="37" selection-start="72" selection-end="72" vertical-scroll-proportion="0.024113474">
           <folding />
         </state>
       </provider>
