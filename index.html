@@ -366,6 +366,28 @@
         var ua = navigator.userAgent;
         var isKindle = /Kindle/i.test(ua) || /Silk/i.test(ua) || /KFTT/i.test(ua) || /KFOT/i.test(ua) || /KFJWA/i.test(ua) || /KFJWI/i.test(ua) || /KFSOWI/i.test(ua) || /KFTHWA/i.test(ua) || /KFTHWI/i.test(ua) || /KFAPWA/i.test(ua) || /KFAPWI/i.test(ua);
 
+        //*******************************************************************************
+        //
+        // I am changing the href of the menu-item buttons (HOME, ABOUT, MY SERVICES, Etc..)
+        // so that the application does not jump to the respective sections.
+        // On kindle it's ok to jump to these sections because it shows one long page.
+        // However on a regular device like a pc or samsung galaxy doing so jumps near the top
+        // but not all the way and causes it to hide the main menu, making it look akward.
+        //
+        //  Fernando 4/20/2014
+        //********************************************************************************************************
+        function clearHrefWhenNotKindle(){
+
+            if(isKindle === false){
+                var elements = document.getElementsByClassName('menu-item'); //get all menu-items
+                var i = 0;
+
+                for(i = 0; i < elements.length; i++){
+                    elements[i].href = elements[i].href + "-"; //add a dash (e.g. href="#about-" instead of href="#about" to avoid jumping locations when showing and hiding elements
+                }
+            }
+        }
+
 
         function show(elementToShow) {
             if(isKindle === true)
@@ -394,6 +416,7 @@
             document.getElementById('gallery-menu').classList.remove("selected");
         }
 
+        clearHrefWhenNotKindle();
         show('home');
     </script>
 
