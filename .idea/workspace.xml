@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/site.css" afterPath="$PROJECT_DIR$/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.dat" afterPath="$PROJECT_DIR$/todolist.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397861049699" ignored="false" />
-    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397894558240" ignored="false" />
+    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397953922213" ignored="false" />
     <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397887410788" ignored="false" />
     <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397895916667" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,19 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="208" column="66" selection-start="10882" selection-end="10882" vertical-scroll-proportion="-66.07843">
+            <state line="53" column="22" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.3628186">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todolist.dat" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="todolist.dat" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todolist.dat">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="88" selection-start="341" selection-end="341" vertical-scroll-proportion="0.16879432">
+            <state line="7" column="88" selection-start="341" selection-end="341" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
@@ -93,9 +92,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/site.css" />
         <option value="$PROJECT_DIR$/todolist.dat" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -147,6 +146,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="deejayhandyman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deejayhandyman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="deejayhandyman" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,6 +308,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/todolist.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="88" selection-start="341" selection-end="341" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/site.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="1" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0">
@@ -304,14 +324,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="208" column="66" selection-start="10882" selection-end="10882" vertical-scroll-proportion="-66.07843">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="88" selection-start="341" selection-end="341" vertical-scroll-proportion="0.16879432">
+        <state line="53" column="22" selection-start="1738" selection-end="1738" vertical-scroll-proportion="0.3628186">
           <folding />
         </state>
       </provider>
