@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\license.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\sample.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Programming Apps\deejay_handyman\deejayhandyman\stylesheet.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todolist.dat" afterPath="$PROJECT_DIR$/todolist.dat" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398031933706" ignored="false" />
-    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398036495114" ignored="false" />
+    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398037091673" ignored="false" />
     <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397980322051" ignored="false" />
     <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397967539125" ignored="false" />
     <file path="$PROJECT_DIR$/../../diggablewebsites/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397979471866" ignored="false" />
@@ -48,7 +43,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="42" selection-start="7695" selection-end="7695" vertical-scroll-proportion="0.79073244">
+            <state line="211" column="45" selection-start="9646" selection-end="9646" vertical-scroll-proportion="0.54260087">
               <folding />
             </state>
           </provider>
@@ -330,7 +325,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="42" selection-start="7695" selection-end="7695" vertical-scroll-proportion="0.79073244">
+        <state line="211" column="45" selection-start="9646" selection-end="9646" vertical-scroll-proportion="0.54260087">
           <folding />
         </state>
       </provider>
