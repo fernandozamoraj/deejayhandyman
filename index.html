@@ -16,6 +16,7 @@
     <link href='http://fonts.googleapis.com/css?family=Nova+Square' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='./css/site.css' type='text/css'>
 	<link rel="stylesheet" href="./css/gridiculous.css" type='text/css'>
+    <script src="./scripts/jquery-1.11.0.min.js"></script>
 
 
     <style>
@@ -95,11 +96,11 @@
             <div class="row" id="main-menu">
                 <div class="c3"></div>
                 <div class="c9">
-                    <a href="#home" class="bright-color menu-item" onclick="show('home');"  id='home-menu'>HOME  </a>&#8226;
-                    <a href="#about" class="bright-color menu-item" onclick="show('about');" id='about-menu'>ABOUT  </a>&#8226;
-                    <a href="#my-services" class="bright-color menu-item" onclick="show('my-services');"  id='my-services-menu'>MY SERVICES  </a>&#8226;
-                    <a href="#contact-me" class="bright-color menu-item" onclick="show('contact-me');"  id='contact-me-menu'>CONTACT ME  </a>&#8226;
-                    <a href="#gallery" class="bright-color menu-item" onclick="show('gallery');"  id='gallery-menu'>GALLERY  </a>
+                    <a href="#home" class="bright-color menu-item" onclick="show('#home');"  id='home-menu'>HOME  </a>&#8226;
+                    <a href="#about" class="bright-color menu-item" onclick="show('#about');" id='about-menu'>ABOUT  </a>&#8226;
+                    <a href="#my-services" class="bright-color menu-item" onclick="show('#my-services');"  id='my-services-menu'>MY SERVICES  </a>&#8226;
+                    <a href="#contact-me" class="bright-color menu-item" onclick="show('#contact-me');"  id='contact-me-menu'>CONTACT ME  </a>&#8226;
+                    <a href="#gallery" class="bright-color menu-item" onclick="show('#gallery');"  id='gallery-menu'>GALLERY  </a>
                 </div>
             </div>
 
@@ -401,7 +402,7 @@
         //kindle fire has bugs that prevent menu navigation
         //this is to avoid hiding menus in kindle fire
         var ua = navigator.userAgent;
-        var isKindle = /Kindle/i.test(ua) || /Silk/i.test(ua) || /KFTT/i.test(ua) || /KFOT/i.test(ua) || /KFJWA/i.test(ua) || /KFJWI/i.test(ua) || /KFSOWI/i.test(ua) || /KFTHWA/i.test(ua) || /KFTHWI/i.test(ua) || /KFAPWA/i.test(ua) || /KFAPWI/i.test(ua);
+        var isKindle = false; // /Kindle/i.test(ua) || /Silk/i.test(ua) || /KFTT/i.test(ua) || /KFOT/i.test(ua) || /KFJWA/i.test(ua) || /KFJWI/i.test(ua) || /KFSOWI/i.test(ua) || /KFTHWA/i.test(ua) || /KFTHWI/i.test(ua) || /KFAPWA/i.test(ua) || /KFAPWI/i.test(ua);
 
         //*******************************************************************************
         //
@@ -442,32 +443,29 @@
             if(isKindle === true)
                 return;
             hideAllMenuItems();
-            var selectedMenuItem = document.getElementById(elementToShow);
-            selectedMenuItem.style.display='block';
 
-            document.getElementById(elementToShow + '-menu').classList.add("selected")
+            $(elementToShow).show();
+            $(elementToShow + "-menu").addClass("selected");
         }
 
         function hideAllMenuItems() {
 
+            $('#home-menu').removeClass("selected");
+            $('#about-menu').removeClass("selected");
+            $('#my-services-menu').removeClass("selected");
+            $('#contact-me-menu').removeClass("selected");
+            $('#gallery-menu').removeClass("selected");
 
-            document.getElementById('home').style.display='none';
-            document.getElementById('about').style.display='none';
-            document.getElementById('my-services').style.display='none';
-            document.getElementById('contact-me').style.display='none';
-            document.getElementById('gallery').style.display='none';
-
-
-            document.getElementById('home-menu').classList.remove("selected");
-            document.getElementById('about-menu').classList.remove("selected");
-            document.getElementById('my-services-menu').classList.remove("selected");
-            document.getElementById('contact-me-menu').classList.remove("selected");
-            document.getElementById('gallery-menu').classList.remove("selected");
+            $('#home').hide();
+            $('#about').hide();
+            $('#my-services').hide();
+            $('#contact-me').hide();
+            $('#gallery').hide();
         }
 
         //Invoke these two funtcions upon loading of the page
         clearHrefWhenNotKindle();   //clear the ids and then show the home menu selected
-        show('home');
+        show('#home');
     </script>
 
 </body>
