@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +76,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="462" column="33" selection-start="23899" selection-end="23899" vertical-scroll-proportion="0.7287234">
+            <state line="274" column="26" selection-start="14159" selection-end="14159" vertical-scroll-proportion="0.14285715">
               <folding />
             </state>
           </provider>
@@ -439,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="462" column="33" selection-start="23899" selection-end="23899" vertical-scroll-proportion="0.7287234">
+        <state line="274" column="26" selection-start="14159" selection-end="14159" vertical-scroll-proportion="0.14285715">
           <folding />
         </state>
       </provider>
