@@ -7,7 +7,7 @@
     <ignored path="deejayhandyman.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398219582388" ignored="false" />
-    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398221091668" ignored="false" />
+    <file path="/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398221881586" ignored="false" />
     <file path="/site.css" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398057020741" ignored="false" />
     <file path="/todolist.dat" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1397967539125" ignored="false" />
     <file path="$PROJECT_DIR$/../../diggablewebsites/index.html" changelist="a3f5580b-6e42-4607-8c3f-a0f1bc76811f" time="1398065071668" ignored="false" />
@@ -76,7 +76,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="274" column="26" selection-start="14159" selection-end="14159" vertical-scroll-proportion="0.14285715">
+            <state line="446" column="38" selection-start="23339" selection-end="23339" vertical-scroll-proportion="0.4007421">
               <folding />
             </state>
           </provider>
@@ -438,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="274" column="26" selection-start="14159" selection-end="14159" vertical-scroll-proportion="0.14285715">
+        <state line="446" column="38" selection-start="23339" selection-end="23339" vertical-scroll-proportion="0.4007421">
           <folding />
         </state>
       </provider>
