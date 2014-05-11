@@ -13,10 +13,10 @@
 }
 
 #main-menu{
-    background-image: url('../img/deejayhandyman-logo.png');
-    background-repeat: no-repeat;
-    background-size: 20%;
-    min-height: 100px;;
+    /*background-image: url('../img/deejayhandyman-logo.png');*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 20%;*/
+    min-height: 50px;
 }
 
 a.underline{
@@ -37,6 +37,19 @@ a.menu-item.selected
 {
     background-color:#882222;
     color: #eee;
+}
+
+a.book{
+  color:#eee;
+}
+
+div! > a.book:hover{
+    background-color:#eee;
+    color:#882222;
+}
+
+a.book:visited{
+    color:#eee;
 }
 
 .contrast-color{
