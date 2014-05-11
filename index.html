@@ -3,7 +3,7 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ng-app="handymanApp"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -186,15 +186,13 @@
                                TO UPDATE THIS SECTION ALL YOU NEED TO DO IS ADD ROWS
 
                     *******************************************************************************-->
-                    <div id="upcoming-events" class="c4">
+                    <div id="upcoming-events" class="c4" ng-controller="eventController">
                         UPCOMING EVENTS
-                        <div class="row">
-                            <span class="event-date">April 25, 2014</span></br>
-                            <span class="event-name">Wedding Reception Georgetown, TX</span>
-                        </div>
-                        <div class="row">
-                            <span class="event-date">May 24, 2014</span></br>
-                            <span class="event-name">Wedding Reception Killeen, TX</span>
+                        <div ng-repeat="event in events">
+                            <div class="row">
+                                <span class="event-date">{{event.date}}</span></br>
+                                <span class="event-name">{{event.name}} {{event.location}}</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -471,6 +469,16 @@
         clearHrefWhenNotKindle();   //clear the ids and then show the home menu selected
         show('#home');
     </script>
+    <script src="./scripts/angularjs.min.1.2.9.js"></script>
+    <script>
+        var handymanApp = angular.module("handymanApp", []);
 
+        handymanApp.controller('eventController', function eventController($scope){
+            $scope.events = [
+                {name: "Wedding Reception", location: "Georgetown, TX", date: "April 25, 2004"},
+                {name: "Wedding Reception", location: "Killeen, TX", date: "May 24, 2014"}
+            ];
+        });
+    </script>
 </body>
 </html>
