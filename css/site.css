@@ -1,3 +1,7 @@
+*{
+    margin-left: 0;
+    padding-left: 0;
+}
 
  body{
     background-color: black;
@@ -27,6 +31,9 @@ a{
     text-decoration: none;
 }
 
+a:visited{
+    text-decoration: none;
+}
 a.menu-item:hover
 {
     background-color:#eee;
@@ -37,6 +44,7 @@ a.menu-item.selected
 {
     background-color:#882222;
     color: #eee;
+    border: none;
 }
 
 a.book{
