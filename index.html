@@ -210,16 +210,10 @@
                         <h3 class="c10">NEWS AND SPECIAL PROMOTIONS</h3>
                     </div>
                     <div class="row">
-                        <div class="c10">
-                            <p>
-                                Earn $25 for any referrals.
-                            </p>
-
-                            <!-- uncomment to add any other promotions
-                            <p>
-                                Add a new promotion here
-                            </p>
-                             end of comment-->
+                        <div class="c10" ng-controller="specialsController">
+                            <div ng-repeat="special in specials">
+                                <p>{{special.content}}</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
@@ -476,54 +470,15 @@
         clearHrefWhenNotKindle();   //clear the ids and then show the home menu selected
         show('#home');
     </script>
+    <!-- MVC Angular files-->
+    <script src="./scripts/itemSettingsExtractor.js"></script>
     <script src="./scripts/angularjs.min.1.2.9.js"></script>
-    <script>
-        var handymanApp = angular.module("handymanApp", []);
+    <script src="./scripts/modules/handymanApp.js"></script>
+    <script src="./scripts/controllers/eventController.js"></script>
+    <script src="./scripts/controllers/specialsController.js"></script>
+    <script src="./scripts/services/settingsDataService.js"></script>
+    <script src="./scripts/services/specialsDataService.js"></script>
+    <script src="./scripts/services/eventsDataService.js"></script>
 
-        handymanApp.controller('eventController', function eventController($scope, eventDataService){
-
-            eventDataService.getDomainSettings(function(domainSettings){
-                $scope.events = extractEvents(domainSettings);
-            });
-        });
-
-        function extractEvents(domainSettings){
-            var events = [];
-            if(domainSettings && domainSettings.length && domainSettings.length > 0){
-                var eventsCount = 0;
-                for(var i = 0;i< domainSettings.length; i++){
-                    if(domainSettings[i].key.indexOf("event") === 0){
-                        eventsCount++;
-                        var tokens = domainSettings[i].value.split('|');
-                        events.push({name: tokens[0] || '', location: tokens[1] || '', date: tokens[2] || '' });
-                    }
-                    if(eventsCount >= 5)
-                        break;
-                }
-            }
-
-            return events;
-        }
-
-        //service to fetch the data
-        handymanApp.factory('eventDataService', function($http){
-
-            //var url = 'http://localhost:3000/clouddb/json/domain/settings?domainName=www.deejayhandyman.com&callback=JSON_CALLBACK';
-            var url = 'http://merants.jit.su/clouddb/json/domain/settings?domainName=www.deejayhandyman.com&callback=JSON_CALLBACK';
-
-            //send back the promise instead of sending back the actual data
-            return { getDomainSettings : function(callback){
-                    $http.jsonp(url)
-                            .success(function(data){
-                               callback(data.domainSettings);
-                            })
-                            .error(function(data){
-                                callback("request failed");
-                            });
-                }
-            };
-        });
-
-    </script>
 </body>
 </html>

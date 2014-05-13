@@ -1,0 +1,1 @@
+var handymanApp = angular.module("handymanApp", []);
