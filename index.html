@@ -189,7 +189,7 @@
                     *******************************************************************************-->
                     <div id="upcoming-events" class="c4" ng-controller="eventController">
                         UPCOMING EVENTS
-                        <div ng-repeat="event in events | orderBy:sequence">
+                        <div ng-repeat="event in events | orderBy:'sequence'">
                             <div class="row">
                                 <span class="event-date">{{event.date}}</span><br/>
                                 <span class="event-name">{{event.name}} {{event.location}}</span><br/>
